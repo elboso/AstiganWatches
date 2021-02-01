@@ -1,0 +1,12 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+.wrapper {
+  background: linear-gradient(90deg, rgba(60, 161, 218, 0.3) 0%, rgba(243, 113, 33, 0.3) 100%), linear-gradient(317.22deg, rgba(159, 159, 159, 0.05) 22.46%, rgba(17, 17, 17, 0.05) 22.46%), linear-gradient(224.19deg, rgba(202, 202, 202, 0.06) 42.61%, rgba(89, 89, 89, 0.06) 42.61%), linear-gradient(318.37deg, rgba(100, 100, 100, 0.05) 43.88%, rgba(253, 253, 253, 0.05) 43.89%), linear-gradient(51.4deg, rgba(107, 107, 107, 0.06) 77.33%, rgba(179, 179, 179, 0.06) 77.33%), linear-gradient(201.36deg, rgba(73, 73, 73, 0.06) 47.8%, rgba(145, 145, 145, 0.05) 47.8%), linear-gradient(128.29deg, rgba(141, 141, 141, 0.09) 63.78%, rgba(141, 141, 141, 0.09) 63.79%, rgba(51, 51, 51, 0.09) 63.8%);
+}
+
+.whiteBanner1 {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
