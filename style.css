@@ -7,6 +7,7 @@ p {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #004165;
+  font-size: 1rem;
 }
 
 h2 {
@@ -43,7 +44,11 @@ h2 {
   padding-bottom: 10px;
 }
 
-.pied {
+.insta p {
+  font-size: 1.2rem;
+}
+
+.pied p {
   color: white;
   text-shadow: 1px 3px 2px rgba(0, 0, 0, .25);
 }
