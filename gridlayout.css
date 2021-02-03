@@ -34,7 +34,7 @@ header {
 
 .smolGrid {
   grid-area: smolgrid;
-
+  gap: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -52,7 +52,6 @@ header {
   align-items: center;
   padding: 10px;
   flex-basis: 20rem;
-  min-width: 10rem;
   flex-grow: 1;
 }
 
