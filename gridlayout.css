@@ -15,6 +15,15 @@
 
 }
 
+@media (min-width: 1200px) {
+  .wrapper {
+    height: 100vh;
+  }
+  p {
+    color: purple;
+  }
+}
+
 header {
   grid-area: head;
 
@@ -43,7 +52,7 @@ header {
 
 .insta {
   /* spec smolGrid */
-  grid-column: span 3;
+  grid-column: span 1;
   /* info interne */
   display:flex;
   flex-wrap: wrap;
@@ -68,18 +77,4 @@ header {
 .pied {
   grid-area: footer;
   place-self: center;
-}
-
-@media (min-resolution: 2dppx){
-  p {
-    font-size: 2em;
-    color: red;
-  }
-}
-
-@media (min-resolution: 4dppx){
-  p {
-    font-size: 4em;
-    color: green;
-  }
 }
