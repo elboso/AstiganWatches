@@ -49,18 +49,20 @@ header {
 
 }
 
-
-.insta {
-  /* spec smolGrid */
-  grid-column: span 1;
-  /* info interne */
+button {
+  /* flexbox pour les 4 bouttons */
   display:flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 
-  /* reste */
-  padding: 10px;
+}
+
+#instaButton {
+  /* spec smolGrid */
+  grid-column: span 1;
+  height: 15rem;
+  width: 18rem;
 }
 
 
