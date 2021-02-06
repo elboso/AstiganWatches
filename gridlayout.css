@@ -53,12 +53,12 @@ button {
 
   display: flex;
   flex-flow: column;
+  align-items: center;
 
 
 }
 
 #instaButton {
-  align-items: center;
   justify-content: space-evenly;
 }
 

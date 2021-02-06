@@ -71,6 +71,10 @@ h2 {
   padding-bottom: 1rem;
 }
 
+.images {
+  width: 100%;
+}
+
 #instaButton {
   padding: 10px;
 }
