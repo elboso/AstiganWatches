@@ -1,19 +1,41 @@
 * {
  margin: 0;
  padding: 0;
+
+}
+
+p, h2 {
+  font-family: 'Lato', sans-serif;
+  padding: 1rem 0rem;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #004165;
   font-size: 1rem;
   line-height: 1.5rem;
+
 }
 
+@media (min-resolution: 2dppx){
+  p {
+    font-size: 2rem;
+    color: red;
+  }
+}
+
+@media (min-resolution: 4dppx){
+  p {
+    font-size: 4rem;
+    color: green;
+  }
+}
+
+
 h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #F37121;
+  font-size: 1.5rem;
 }
 
 .wrapper {
@@ -24,9 +46,8 @@ h2 {
   background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.insta {
-  border-radius: 5px;
-}
+
+
 .logo, .slogan {
   margin-top: auto;
   margin-bottom: auto;
@@ -35,6 +56,7 @@ h2 {
 
 .slogan {
   justify-self: center;
+  flex-basis: 22rem;
 }
 
 .slogan p {
@@ -47,11 +69,46 @@ h2 {
   padding-bottom: 1rem;
 }
 
+#instaButton {
+  padding: 10px;
+}
+
 .insta p {
   font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.about h2 {
+  font-weight: 300;
+  color: black;
 }
 
 .pied p {
   color: white;
   text-shadow: 1px 3px 2px rgba(0, 0, 0, .25);
+}
+
+/* Button styling */
+
+button {
+  border: 0;
+  border-radius: 1rem;
+  background: white;
+  color: #004165;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.siteB p {
+  padding-bottom: 2rem;
+}
+
+.siteB img {
+  border-radius: 1rem 1rem 0rem 0rem;
+
 }
