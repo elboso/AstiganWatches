@@ -12,22 +12,20 @@ p, h2 {
 p {
   font-weight: 400;
   color: #004165;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1em;
+  line-height: 1.5em;
 
 }
 
 @media (min-resolution: 2dppx){
-  p {
-    font-size: 2rem;
-    color: red;
+  .wrapper {
+    font-size: 32px;
   }
 }
 
 @media (min-resolution: 4dppx){
-  p {
-    font-size: 4rem;
-    color: green;
+  .wrapper {
+    font-size: 40px;
   }
 }
 
@@ -35,7 +33,7 @@ p {
 h2 {
   font-weight: 400;
   color: #F37121;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .wrapper {
@@ -54,9 +52,13 @@ h2 {
   width: 50%;
 }
 
+#logo {
+  width : 12.5em;
+}
+
 .slogan {
   justify-self: center;
-  flex-basis: 22rem;
+  flex-basis: 22em;
 }
 
 .slogan p {
@@ -73,8 +75,12 @@ h2 {
   padding: 10px;
 }
 
+#instaLogo {
+  width: 2em;
+}
+
 .insta p {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   padding: 1rem;
 }
 
@@ -97,7 +103,7 @@ button {
   color: #004165;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1em;
   line-height: 1.2;
   text-decoration: none;
   cursor: pointer;
