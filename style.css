@@ -1,48 +1,41 @@
 * {
  margin: 0;
  padding: 0;
+
+}
+
+p, h2 {
+  font-family: 'Lato', sans-serif;
+  padding: 1rem 0rem;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #004165;
   font-size: 1rem;
   line-height: 1.5rem;
+
 }
 
 @media (min-resolution: 2dppx){
   p {
-    font-size: 2em;
+    font-size: 2rem;
     color: red;
   }
 }
 
 @media (min-resolution: 4dppx){
   p {
-    font-size: 4em;
-    color: green;
-  }
-}
-
-@media (min-resolution: 2dppx){
-  p {
-    font-size: 2em;
-    color: red;
-  }
-}
-
-@media (min-resolution: 4dppx){
-  p {
-    font-size: 4em;
+    font-size: 4rem;
     color: green;
   }
 }
 
 
 h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #F37121;
+  font-size: 1.5rem;
 }
 
 .wrapper {
@@ -54,6 +47,7 @@ h2 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
 .logo, .slogan {
   margin-top: auto;
   margin-bottom: auto;
@@ -62,6 +56,7 @@ h2 {
 
 .slogan {
   justify-self: center;
+  flex-basis: 22rem;
 }
 
 .slogan p {
@@ -80,6 +75,12 @@ h2 {
 
 .insta p {
   font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.about h2 {
+  font-weight: 300;
+  color: black;
 }
 
 .pied p {
@@ -101,6 +102,10 @@ button {
   text-decoration: none;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.siteB p {
+  padding-bottom: 2rem;
 }
 
 .siteB img {
