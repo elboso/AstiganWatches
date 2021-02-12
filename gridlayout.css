@@ -4,8 +4,8 @@
   width: 100vw;
 
   grid-template-columns: .3fr minmax(400px,3fr) .3fr;
-  grid-template-rows: 1fr auto 3fr auto .5fr;
-  grid-gap: 3rem;
+  grid-template-rows: 1fr auto 3fr auto .2fr;
+  grid-gap: 2rem;
   grid-template-areas:
   ". head ."
   ". legende ."
@@ -21,6 +21,8 @@ header {
 
   display: flex;
   flex-wrap: wrap;
+  align-self: end;
+  padding-top: 2rem;
 }
 
 .legende {

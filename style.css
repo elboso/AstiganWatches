@@ -21,6 +21,10 @@ p {
   .wrapper {
     font-size: 32px;
   }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-resolution: 4dppx){
@@ -116,6 +120,11 @@ button {
 
 .siteB p {
   padding-bottom: 2rem;
+  padding-top: .25rem;
+}
+
+.siteB h2 {
+  padding-bottom: .25rem;
 }
 
 .siteB img {
