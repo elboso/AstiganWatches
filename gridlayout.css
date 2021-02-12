@@ -40,18 +40,12 @@ header {
   grid-area: smolgrid;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
 
-  grid-gap: 3rem;
-
+  grid-gap: 4rem;
 }
 
 button {
-  /* flexbox pour les 4 bouttons */
-  /* display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center; */
 
   display: flex;
   flex-flow: column;
